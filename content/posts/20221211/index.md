@@ -6,7 +6,7 @@ author: "Me"
 categories: ["tech"]
 
 editPost:
-    URL: "https://github.com/aibazhang/blog/tree/master/content"
+    URL: "https://github.com/jckinjo/blog/tree/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
@@ -24,7 +24,7 @@ https://docs.getdbt.com/docs/get-started/docker-install
 
 そのため、公式のサンプルプロジェクトをforkし、事前にローカル環境で生成した設定ファイルを追加しました。
 
-https://github.com/aibazhang/dbt-metadata-management
+https://github.com/jckinjo/dbt-metadata-management
 
 ### `profiles.yml`を編集
 
@@ -40,7 +40,7 @@ docker pull ghcr.io/dbt-labs/dbt-bigquery:1.2.0
 ### コンテナを立ち上げる
 
 ```console
-git clone https://github.com/aibazhang/dbt-metadata-management
+git clone https://github.com/jckinjo/dbt-metadata-management
 cd dbt-metadata-management
 ```
 
@@ -96,7 +96,7 @@ docker run --rm \
 https://github.com/dbt-labs/dbt-docs/issues/53
 回答にあるPythonスクリプトをそのまま使って、静的htmlファイルを生成します。
 
-https://github.com/aibazhang/dbt-metadata-management/blob/main/generate_static_html.py
+https://github.com/jckinjo/dbt-metadata-management/blob/main/generate_static_html.py
 
 ```console
 python generate_static_html.py
@@ -111,11 +111,11 @@ python generate_static_html.py
 先ほど環境構築の節で言及しましたが、複数のデータセットがある場合は少し手間がかかります。
 幸い`macro`を編集すれば対処できます。
 
-https://github.com/aibazhang/dbt-metadata-management/blob/main/macros/get_custom_schema.sql
+https://github.com/jckinjo/dbt-metadata-management/blob/main/macros/get_custom_schema.sql
 
 データモデルのconfigにschema（＝BigQueryのデータセット）を追加すれば複数データセットが表示できるようになります。
 
-https://github.com/aibazhang/dbt-metadata-management/blob/main/models/dbt_test_2/sample_table.sql
+https://github.com/jckinjo/dbt-metadata-management/blob/main/models/dbt_test_2/sample_table.sql
 
 ### 異なるデータセットにある同名テーブルの扱い方
 

@@ -5,7 +5,7 @@ tags: ["日本語", "airflow", "googlecloud"]
 author: "Me"
 categories: ["tech"]
 editPost:
-    URL: "https://github.com/aibazhang/blog/tree/master/content"
+    URL: "https://github.com/jckinjo/blog/tree/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---

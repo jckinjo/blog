@@ -7,7 +7,7 @@ categories: ["tech"]
 cover:
     image: "images/01.png" # image path/url
 editPost:
-    URL: "https://github.com/aibazhang/blog/tree/master/content"
+    URL: "https://github.com/jckinjo/blog/tree/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
@@ -29,13 +29,13 @@ There are countless tools when you also include mind mapping tools. I am a minim
 
 Thererfore, I came up with the idea of creating a custom personal knowledge management tool. As a result, I only used a 15-line shell script, GitHub Actions, and the Markdown mind map conversion tool Markmap to create it.
 
-https://aibazhang.github.io/
+https://jckinjo.github.io/
 
 By clicking on the items, you can view the mind map for each note.
 
 ![title](images/01.png)
 
-You can find the source code [here](https://github.com/aibazhang/tiny-mindmap)
+You can find the source code [here](https://github.com/jckinjo/tiny-mindmap)
 
 ## From Markdown to Mind Map
 
@@ -187,4 +187,4 @@ That's it!
 Drawing on the wisdom of predecessors, I created a Simple, Tiny, and Free personal knowledge management tool with just a 15-line shell script. With the most basic knowledge of Git and GitHub, it is possible to build your own knowledge management tool at zero cost.
 Please feel free to clone the repository and try it out for yourself!
 
-https://github.com/aibazhang/tiny-mindmap
+https://github.com/jckinjo/tiny-mindmap

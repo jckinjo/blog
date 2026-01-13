@@ -43,7 +43,7 @@ categories: ["tech"]
 
 https://www.multitrue.news
 
-https://github.com/aibazhang/multitrue
+https://github.com/jckinjo/multitrue
 
 ![](images/5916d976d01f-20220416.png)
 
@@ -80,7 +80,7 @@ CSSから実装するはだるいので、Start Bootstrapにある[Clean blog](h
 データの定期取得ために、Node.jsのスクリプトを書きました。
 NewsAPIの無料枠は100req/dayそして複数の言語のニュースを取得したいといった制約があるので、`cron`を使って一日の取得回数を制限しています。`data-import-config.json`はルートの下にあるデータをインポートする際のconfigファイルです。
 
-[ソース](https://github.com/aibazhang/multitrue/blob/master/src/utils/importData.js)
+[ソース](https://github.com/jckinjo/multitrue/blob/master/src/utils/importData.js)
 ```javascript
 const dotenv = require('dotenv');
 const NewsAPI = require('newsapi');
@@ -134,7 +134,7 @@ module.exports = job;
 #### Model
 まずはmodelです。テーブルNewsだけなので、一つのテーブルで十分です。ちなみに、ORMは`mongoose`を使っています。特に注目していただきたいのは`find`メソッドを実行する前に、**キーワードベースでニュースをフィルタリングする**ミドルウェアを入れました。目的としては、NewAPIの`category`という引数を`general`に設定してニュースを収集すると、あまり読みたくない芸能・スポーツのニュースもけっこうあるので、キーワード（例えば、ニッカンスポーツ）で除きたいです。ルートの下にある`view-config.json`からフィルタリング用のキーワードを追加できます。
 
-[ソース](https://github.com/aibazhang/multitrue/blob/master/src/models/newsModel.js)
+[ソース](https://github.com/jckinjo/multitrue/blob/master/src/models/newsModel.js)
 ```javascript
 // .....
 newsSchema.pre(/^find/, function (next) {
@@ -149,7 +149,7 @@ newsSchema.pre(/^find/, function (next) {
 日本語の記事を例にして簡単に説明すると、`country`を`jp`に指定して、DBから日本語の最新ニュースを取ってきます。ページによって言語は異なりますが、ほとんどのところは同じなので、フラグの絵文字、タイトル、国コードなどのメタ情報をレスポンスに追加する必要があります。
 expressの詳細の説明は割愛させていただきます。
 
-[ソース](https://github.com/aibazhang/multitrue/blob/master/src/controllers/viewsController.js)
+[ソース](https://github.com/jckinjo/multitrue/blob/master/src/controllers/viewsController.js)
 ```javascript
 exports.getHeadlinesJP = catchAsync(async (req, res) => {
   const news = await News.find({ category: 'general', country: 'jp' })
@@ -171,7 +171,7 @@ exports.getHeadlinesJP = catchAsync(async (req, res) => {
 viewはexpressの`view engine`を使っています。
 もちろん最初からcssとhtmlを作成するのはかなり労力がかかるため、先ほど言及した[Clean blog](https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/src/pug/index.pug)のpugコード少し今回用に改修してみました。controllerのレスポンスから取っきたメタ情報とニュースの詳細はここで利用されます。
 
-[ソース](https://github.com/aibazhang/multitrue/blob/master/src/views/index.pug)
+[ソース](https://github.com/jckinjo/multitrue/blob/master/src/views/index.pug)
 ```pug
 extends base
 

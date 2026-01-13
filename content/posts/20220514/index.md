@@ -8,7 +8,7 @@ categories: ["tech"]
 cover:
     image: "images/4abb33b0e465-20220514.png" # image path/url
 editPost:
-    URL: "https://github.com/aibazhang/blog/tree/master/content"
+    URL: "https://github.com/jckinjo/blog/tree/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
@@ -24,7 +24,7 @@ https://www.multitrue.news
 
 ソースはこちらから確認できます。
 
-https://github.com/aibazhang/multitrue
+https://github.com/jckinjo/multitrue
 
 ### 下準備
 日本語と中国語などは英語と異なり、単語と単語の間スペースがないので、形態素解析が必要です。簡略化するために、今回は英語のワードクラウドのみを作ることにしました。人称代名詞や助動詞のような`Stop Words`をワードクラウドに出しても意味がないので、NLTKの英語`Stop Words`辞書を利用します。

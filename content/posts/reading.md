@@ -17,26 +17,26 @@ A list of books I am reading or have finished. Click on a book title to view my 
 3. 自然言語処理 / 黒橋禎夫
 4. ゼロから作るDeep Learning① / 斎藤康毅
 5. ゼロから作るDeep Learning② / 斎藤康毅
-6. [リーダブルコード : より良いコードを書くためのシンプルで実践的なテクニック](https://aibazhang.github.io/html/tech/readable_code.md.html) / Dustin Boswell, Trevor Foucher
+6. [リーダブルコード : より良いコードを書くためのシンプルで実践的なテクニック](https://jckinjo.github.io/html/tech/readable_code.md.html) / Dustin Boswell, Trevor Foucher
 7. SCRUM BOOT CAMP THE BOOK / 西村直人
 8. The Non-Designers's Design Book / Robin Williams
 9. 仕事ではじめる機械学習2 / 田中隼人
-10. [AWSではじめるデータレイク](https://aibazhang.github.io/html/tech/AWS%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E3%83%87%E3%83%BC%E3%82%BF%E3%83%AC%E3%82%A4%E3%82%AF.md.html) / 上原誠 et al.
-11. [実践的データ基盤への処方箋](https://aibazhang.github.io/html/tech/%E5%AE%9F%E8%B7%B5%E7%9A%84%E3%83%87%E3%83%BC%E3%82%BF%E5%9F%BA%E7%9B%A4%E3%81%B8%E3%81%AE%E5%87%A6%E6%96%B9%E7%AE%8B.md.html) / ゆずたそ et al.
+10. [AWSではじめるデータレイク](https://jckinjo.github.io/html/tech/AWS%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E3%83%87%E3%83%BC%E3%82%BF%E3%83%AC%E3%82%A4%E3%82%AF.md.html) / 上原誠 et al.
+11. [実践的データ基盤への処方箋](https://jckinjo.github.io/html/tech/%E5%AE%9F%E8%B7%B5%E7%9A%84%E3%83%87%E3%83%BC%E3%82%BF%E5%9F%BA%E7%9B%A4%E3%81%B8%E3%81%AE%E5%87%A6%E6%96%B9%E7%AE%8B.md.html) / ゆずたそ et al.
 12. Adaptive code / Gary McLean Hall
 13. Competing with Unicorns / Jonathan Rasmusson
-14. [Designing data-intensive applications](https://aibazhang.github.io/html/tech/designing_data_intensive_applications.md.html) / Martin Kleppmann
-15. [The Pragmatic Programmer](https://aibazhang.github.io/html/tech/the_pragmatic_programmer.md.html) / Andrew Hunt, David Thomas
+14. [Designing data-intensive applications](https://jckinjo.github.io/html/tech/designing_data_intensive_applications.md.html) / Martin Kleppmann
+15. [The Pragmatic Programmer](https://jckinjo.github.io/html/tech/the_pragmatic_programmer.md.html) / Andrew Hunt, David Thomas
 16. Domain Driven Design / Eric Evans
 17. ビッグデータを支える技術 / 西田圭介
-18. [HTTPの教科書](https://aibazhang.github.io/html/tech/HTTP%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8.md.html) / 上野宣
-19. [入門監視](https://aibazhang.github.io/html/tech/%E5%85%A5%E9%96%80%E7%9B%A3%E8%A6%96.md.html) / Mike Julian
+18. [HTTPの教科書](https://jckinjo.github.io/html/tech/HTTP%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8.md.html) / 上野宣
+19. [入門監視](https://jckinjo.github.io/html/tech/%E5%85%A5%E9%96%80%E7%9B%A3%E8%A6%96.md.html) / Mike Julian
 20. Data Pipelines Pocket Reference / James Densmore
-21. [Fundamentals of Data Engineering](https://aibazhang.github.io/html/tech/fundamentals_of_data_engineering.md.html) / Joe Reis, Matt Housley
+21. [Fundamentals of Data Engineering](https://jckinjo.github.io/html/tech/fundamentals_of_data_engineering.md.html) / Joe Reis, Matt Housley
 22. GitLabに学ぶ 世界最先端のリモート組織のつくりかた / 千田和央 et al.
-23. [Data Quality Fundamentals](https://aibazhang.github.io/html/tech/data_quanlity_fundamentals.md.html) / Barr Moses et al.
-24. [Efficient Linux at the Command Line](https://aibazhang.github.io/html/tech/efficient_linux_at_the_command_line.md.html) / Daniel J. Barrett
-25. [Docs for Developers](https://aibazhang.github.io/html/tech/docs_for_developers.md.html) / Jared Bhatti et al.
+23. [Data Quality Fundamentals](https://jckinjo.github.io/html/tech/data_quanlity_fundamentals.md.html) / Barr Moses et al.
+24. [Efficient Linux at the Command Line](https://jckinjo.github.io/html/tech/efficient_linux_at_the_command_line.md.html) / Daniel J. Barrett
+25. [Docs for Developers](https://jckinjo.github.io/html/tech/docs_for_developers.md.html) / Jared Bhatti et al.
 26. Kubernetes完全ガイド / 青山真也 
 27. 基礎からの新しいストレージ入門 / 坂下幸徳
 28. 世界一流エンジニアの思考法 / 牛尾剛
@@ -45,11 +45,11 @@ A list of books I am reading or have finished. Click on a book title to view my 
 31. Software Engineering at Google / Titus Winters et al.
 32. The Staff Engineer's Path / Tanya Reilly
 33. 左耳聽風 傳奇程序員的練級攻略 / 陳皓
-34. [Becoming SRE](https://aibazhang.github.io/html/tech/becoming_sre.md.html) / David N. Blank-Edelman
-35. [Platform Engineering on Kubernetes](https://aibazhang.github.io/html/tech/platform_engineering_on_kubernetes.md.html) / Josh Rosso
-36. [Team Topologies: Organizing Business and Technology Teams for Fast Flow](https://aibazhang.github.io/html/tech/team-topology.md.html) / Matthew Skelton
+34. [Becoming SRE](https://jckinjo.github.io/html/tech/becoming_sre.md.html) / David N. Blank-Edelman
+35. [Platform Engineering on Kubernetes](https://jckinjo.github.io/html/tech/platform_engineering_on_kubernetes.md.html) / Josh Rosso
+36. [Team Topologies: Organizing Business and Technology Teams for Fast Flow](https://jckinjo.github.io/html/tech/team-topology.md.html) / Matthew Skelton
 37. 理科系の作文技術 / 木下是雄
-38. [ ] [計算機底層的祕密](https://aibazhang.github.io/html/tech/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%BA%95%E5%B1%A4%E7%9A%84%E7%A7%98%E5%AF%86.md.html) / 陸小風
+38. [ ] [計算機底層的祕密](https://jckinjo.github.io/html/tech/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%BA%95%E5%B1%A4%E7%9A%84%E7%A7%98%E5%AF%86.md.html) / 陸小風
 39. [ ] Observability Engineering / Charity Majors, George Miranda, and Liz Fong-Jones
 40. [ ] Learning eBPF / Liz Rice
 41. [ ] Kubernetesコンテナセキュリティ / 望月敬太

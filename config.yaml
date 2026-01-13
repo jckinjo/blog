@@ -93,7 +93,7 @@ params:
     - name: email
       url: "mailto:jci@tutamail.com"
     - name: github
-      url: "https://github.com/aibazhang"
+      url: "https://github.com/jckinjo"
     - name: linkedin
       url: "https://www.linkedin.com/in/kinjok/"
     - name: rss

@@ -23,7 +23,7 @@ hiddenInHomeList: true
 - 本文只談方法論，關於要不要「潤」以及日本適不適合潤等話題本文不做討論
 - 本文內容全部基於筆者自身2022-23年（或者更早）的經驗，可能會過時或者跟你的情況有所偏差，如果有事實性錯誤歡迎提出issue, PR
 - 也歡迎其他形式的PR
-- 歸化所需要的材料因人而異，作爲補充整理到了[cases](https://github.com/aibazhang/cn2jp/tree/master/cases/twitter)裏，請對比閱讀
+- 歸化所需要的材料因人而異，作爲補充整理到了[cases](https://github.com/jckinjo/cn2jp/tree/master/cases/twitter)裏，請對比閱讀
 
 ---
 
@@ -333,4 +333,4 @@ hiddenInHomeList: true
 到這裏所有的手續就都辦完了，前後跨度一年多，終於完成了整個歸化手續。
 如果你覺得這篇文章幫到了你，請分享給其他有需要的人。歡迎大家來一起完善這個攻略。
 
-[Suggest Changes](https://github.com/aibazhang/cn2jp/blob/master/README.md)
+[Suggest Changes](https://github.com/jckinjo/cn2jp/blob/master/README.md)

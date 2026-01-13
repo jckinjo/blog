@@ -5,7 +5,7 @@ tags: ["日本語"]
 categories: ["tech"]
 author: "Me"
 editPost:
-    URL: "https://github.com/aibazhang/blog/tree/master/content"
+    URL: "https://github.com/jckinjo/blog/tree/master/content"
     Text: "Suggest Changes"
     appendFilePath: true
 ---
