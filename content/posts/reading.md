@@ -49,10 +49,10 @@ A list of books I am reading or have finished. Click on a book title to view my 
 35. [Platform Engineering on Kubernetes](https://jckinjo.github.io/html/tech/platform_engineering_on_kubernetes.md.html) / Josh Rosso
 36. [Team Topologies: Organizing Business and Technology Teams for Fast Flow](https://jckinjo.github.io/html/tech/team-topology.md.html) / Matthew Skelton
 37. 理科系の作文技術 / 木下是雄
-38. [ ] [計算機底層的祕密](https://jckinjo.github.io/html/tech/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%BA%95%E5%B1%A4%E7%9A%84%E7%A7%98%E5%AF%86.md.html) / 陸小風
-39. [ ] Observability Engineering / Charity Majors, George Miranda, and Liz Fong-Jones
-40. [ ] Learning eBPF / Liz Rice
-41. [ ] Kubernetesコンテナセキュリティ / 望月敬太
+38. [計算機底層的祕密](https://jckinjo.github.io/html/tech/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%BA%95%E5%B1%A4%E7%9A%84%E7%A7%98%E5%AF%86.md.html) / 陸小風
+39. Observability Engineering / Charity Majors, George Miranda, and Liz Fong-Jones
+40. Kubernetesコンテナセキュリティ / 望月敬太
+41. [ ] Learning eBPF / Liz Rice
 
 
 ## Other
@@ -157,3 +157,6 @@ A list of books I am reading or have finished. Click on a book title to view my 
 98. 東京の教科書
 99. 湘南ERが教える 大切な人を守るための応急手当 / 湘南ER
 100. 日本政治の超基本 / 朝日新聞社
+101. [ ] 採購與供應鏈管理：一個實踐者的角度
+102. [ ] 五胡十六国時代　王朝の乱立と権力闘争
+
