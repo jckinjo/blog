@@ -53,11 +53,12 @@ A list of books I am reading or have finished. Click on a book title to view my 
 39. Observability Engineering / Charity Majors, George Miranda, and Liz Fong-Jones
 40. Kubernetesコンテナセキュリティ / 望月敬太
 41. [ ] Learning eBPF / Liz Rice
+42. [ ] Building Multi-Tenant SaaS Architectures Principles, Practices and Patterns Using AWS / Tod Golding
 
 
 ## Other
 
-1. **孤獨六講** / 蔣勳
+1. (4) 孤獨六講 / 蔣勳
 2. 海底两万里 / Jules Gabriel Verne
 3. 魯濱遜漂流記 / Daniel Defoe
 4. 放課後 / 東野圭吾
@@ -67,15 +68,15 @@ A list of books I am reading or have finished. Click on a book title to view my 
 8. ブルーもしくはブルー / 山本文緒
 9. 一只特立獨行的豬 / 王小波
 10. A Brief History of Time / Stephen Hawking
-11. **Sapiens: A Brief History of Humankind** / Yuval Noah Harari
-12. **Homo Deus: A Brief History of Tomorrow** / Yuval Noah Harari
+11. Sapiens: A Brief History of Humankind / Yuval Noah Harari
+12. Homo Deus: A Brief History of Tomorrow / Yuval Noah Harari
 13. 世界历史很有趣：袁腾飞讲美国史 / 袁腾飞
 14. 思維導圖 / Antony Buzan
 15. 反本能 / 卫蓝
 16. ノルウェイの森 / 村上春樹
 17. 人間失格 / 太宰治
 18. 世界の終りとハードボイルド・ワンダーランド / 村上春樹
-19. 三國演義 / 羅貫中
+19. (2) 三國演義 / 羅貫中
 20. 風の歌を聴け / 村上春樹
 21. 1973年のピンボール / 村上春樹
 22. ダンス・ダンス・ダンス / 村上春樹
@@ -90,38 +91,38 @@ A list of books I am reading or have finished. Click on a book title to view my 
 31. 孤独をたのしむ力 / 午堂登紀雄
 32. 筋肉をつくる 食事・栄養パーフェクト事典 / 岡田隆, 竹並恵里
 33. Rich Dad Poor Dad / Robert Kiyosaki
-34. 生活十講 / 蔣勳
+34. (2) 生活十講 / 蔣勳
 35. Chancing It: The Laws of Chance and How They Can Work for You / Robert Matthews
 36. 毛澤東的私人醫生日記 / 李志綏
 37. 投資信託選びでいちばん知りたいこと / 朝倉智也
 38. 他者と働く 「わかりあえなさ」から始める組織論 / 宇田川元一
 39. How to solve it / George Pólya
-40. Asking the Right Questions: A Guide to Critical Thinking / M. Neil Browne, Stuart M. Keeley
+40. (3) Asking the Right Questions: A Guide to Critical Thinking / M. Neil Browne, Stuart M. Keeley
 41. Censored / Margaret E. Roberts
-42. **Thinking fast slow** / Daniel Kahneman
+42. (2) Thinking fast slow / Daniel Kahneman
 43. 躁動的亡魂 / 梅爾清 et al.
 44. 世界經濟10000年 / Philip Coggan
 45. 不存在的三億人 / 山田泰司
 46. 容忍與自由 / 胡適
 47. 二十一世紀台灣要到哪裡去 / 李登輝
-48. **Amusing Ourselves to Death** / Neil Postman
+48. Amusing Ourselves to Death / Neil Postman
 49. 我所看待的自由與未來 / 唐鳳
 50. 四十自述 / 胡適
 51. 失敗百選 / 中尾政之
-52. **群衆心理** / Gustave Le Bon
+52. (2) 群衆心理 / Gustave Le Bon
 53. 法律人的思考法則 / Vibeke Norgaard Martin
-54. **コミュニケーション能力とは(ありえないことから)** / 平田オリザ
+54. (2) コミュニケーション能力とは(ありえないことから) / 平田オリザ
 55. 徒步中國 / 雷克
-56. **お金持ちになれる黄金の羽根の拾い方 知的人生設計のすすめ** / 橘玲
+56. (4) お金持ちになれる黄金の羽根の拾い方 知的人生設計のすすめ / 橘玲
 57. なぜ豊かな国と貧しい国が生まれたのか / Robert C. Allen
 58. カレーの世界史 / 井上岳久
-59. **激進市場** / Glen Weyl
+59. (2) 激進市場 / Glen Weyl
 60. Peter principle / Laurence J. Peter
-61. **天安門：中國的知識分子與革命** / 史景遷
+61. 天安門：中國的知識分子與革命 / 史景遷
 62. 採用基準 / 伊賀泰代
 63. 運動脳 / Anders Hansen
 64. ミニマムリズムと脱資本主義の精神 / 橋本努
-65. スプートニクの恋人 / 村上春樹
+65. (2) スプートニクの恋人 / 村上春樹
 66. 魂の駆動体 / 神林長平
 67. おもいでエマノン / 梶尾真治
 68. 世界史の構造 / 柄谷行人
@@ -136,9 +137,9 @@ A list of books I am reading or have finished. Click on a book title to view my 
 77. The Pay Off / Gottfried Leibbrandt
 78. Dollar and Sense / Dan Ariely
 79. 物価とは何か / 渡辺努
-80. シンプルで合理的な人生設計 / 橘玲
+80. (3) シンプルで合理的な人生設計 / 橘玲
 81. 超訳「国富論」/ Adam Smith
-82. 幸福の「資本」論 / 橘玲
+82. (2) 幸福の「資本」論 / 橘玲
 83. Newton 食品の大百科
 84. Newton 健康の科学知識
 85. Newton 無とは何か
@@ -150,7 +151,7 @@ A list of books I am reading or have finished. Click on a book title to view my 
 91. カレー移民の謎 / 室橋裕和
 92. 魚ビジネス / ながさき一生
 93. 私を取り戻す哲学 / 岩内章太郎
-94. **The origin of wealth** / Eric D. Beinhocker
+94. The origin of wealth / Eric D. Beinhocker
 95. このプリン、いま食べるか？ ガマンするか？ / 柿内尚文
 96. 教養としての歴史小説 / 今村翔吾
 97. 家康、江戸を建てる / 門井慶喜
