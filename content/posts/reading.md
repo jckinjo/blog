@@ -8,9 +8,9 @@ ShowBreadCrumbs: false
 hiddenInHomeList: true
 ---
 
-A list of books I am reading or have finished. Click on a book title to view my mind map notes.
+A list of books and Articles I am reading or have finished. Click on a book title to view my mind map notes.
 
-## Tech
+## Tech Books
 
 1. Programming Collective Intelligence / Toby Segaran
 2. Introduction to Data Mining / Pang-Ning Tan et al.
@@ -55,17 +55,33 @@ A list of books I am reading or have finished. Click on a book title to view my 
 41. [ ] Learning eBPF / Liz Rice
 42. [ ] Building Multi-Tenant SaaS Architectures Principles, Practices and Patterns Using AWS / Tod Golding
 
+## Tech Articles
+
+- [State of Developer Ecosystem Report](https://devecosystem-2025.jetbrains.com/)
+- [20110825 Learn Vim Progressively](https://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
+- [20240108 重新思考浏览器输入了 URL 并按下回车之后到底发生了什么——本地 DNS 部分](https://nova.moe/rethink-type-url-dns/)
+- [20240514 Application Dependencies with Argo CD](https://akuity.io/blog/application-dependencies-with-argo-cd)
+- [20240517 How to Structure Your Argo CD Repositories Using Application Sets](https://codefresh.io/blog/how-to-structure-your-argo-cd-repositories-using-application-sets/)
+- [20241130 Build a Container Image from Scratch](https://danishpraka.sh/posts/build-a-container-image-from-scratch/)
+- [20241211 Kubernetes traffic deep dive](https://speakerdeck.com/oracle4engineer/kubernetes-traffic-deep-dive)
+- [20250425 今日からはじめるプラットフォームエンジニアリング](https://speakerdeck.com/jacopen/jin-ri-karahazimerupuratutohuomuenziniaringu)
+- [20250507 Modern Kubernetes: Can we replace Helm?](https://yokecd.github.io/blog/posts/helm-compatibility/)
+- [20250912 SSH session 到底会加载哪些环境变量？](https://spencercjh.me/blog/ssh-session-env/)
+- [20260210 AI 编程是一种“框架”](https://www.piglei.com/articles/ai-programming-is-a-new-framework/)
+- [20260224 How we rebuilt Next.js with AI in one week](https://blog.cloudflare.com/vinext/)
+- [20260228 MCP is dead. Long live the CLI](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html)
+- [20260307 杀死你的不是 AI](https://roriri.one/2026/03/07/ai-is-not-killing-you)
 
 ## Other
 
 1. (4) 孤獨六講 / 蔣勳
-2. 海底两万里 / Jules Gabriel Verne
+2. (2) 海底两万里 / Jules Gabriel Verne
 3. 魯濱遜漂流記 / Daniel Defoe
 4. 放課後 / 東野圭吾
 5. 容疑者Xの献身 / 東野圭吾
 6. 靈魂只能獨行 / 周國平
 7. 白夜行 / 東野圭吾
-8. ブルーもしくはブルー / 山本文緒
+8. (2) ブルーもしくはブルー / 山本文緒
 9. 一只特立獨行的豬 / 王小波
 10. A Brief History of Time / Stephen Hawking
 11. Sapiens: A Brief History of Humankind / Yuval Noah Harari
@@ -162,3 +178,7 @@ A list of books I am reading or have finished. Click on a book title to view my 
 102. 五胡十六国時代　王朝の乱立と権力闘争
 103. データでわかる東京格差 / にゃんこそば
 104. エブリシング・ヒストリーと地政学 マネーが生み出す文明の「破壊と創造」 / エミン・ユルマズ
+105. コンタクトセンターの作り方・運用の仕方
+106. [ ] 紅樓夢
+
+
