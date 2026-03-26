@@ -26,7 +26,7 @@ params:
     - Blog
     - Portfolio
   author: JC
-  images: ["/favicon.png"]
+  images: [""]
   DateFormat: "January 2, 2006"
   defaultTheme: dark
   disableThemeToggle: true
