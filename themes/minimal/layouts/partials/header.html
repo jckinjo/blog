@@ -2,9 +2,9 @@
     <nav class="nav">
         <div class="logo">
             {{- with site.Params.label }}
-            <a href="{{ site.BaseURL }}" accesskey="h" title="{{ .text }} (Alt + H)">
+            <a href="/" accesskey="h" title="{{ .text }} (Alt + H)">
                 {{- with .icon }}
-                <img src="{{ . | absURL }}" alt="" height="{{ site.Params.label.iconHeight | default 35 }}">
+                <img src="{{ . }}" alt="" height="{{ site.Params.label.iconHeight | default 35 }}">
                 {{- end }}
             </a>
             {{- end }}
@@ -13,7 +13,7 @@
             {{- range site.Menus.main }}
             {{- $is_external := findRE "://" .URL }}
             <li>
-                <a href="{{ .URL | absURL }}"
+                <a href="{{ .URL | relURL }}"
                     {{- if $is_external }} target="_blank" rel="noopener noreferrer"{{ end }}
                     {{- if eq .URL "/" }}
                         {{- if $.IsHome }} class="active"{{ end }}
