@@ -1,0 +1,63 @@
+{{- define "main" }}
+<div class="writing-page">
+    <div class="writing-tabs">
+        <button class="tab active" data-filter="tech">Tech</button>
+        <button class="tab" data-filter="life">Life</button>
+        <button class="tab" data-filter="all">All</button>
+    </div>
+    <ul class="post-list">
+        {{- $posts := where site.RegularPages "Section" "posts" }}
+        {{- $posts = where $posts "Params.categories" "!=" nil }}
+        {{- $posts = where $posts "Params.booknote" "!=" true }}
+        {{- range $posts.ByDate.Reverse }}
+        {{- $cat := "tech" }}
+        {{- with .Params.categories }}{{ $cat = index . 0 | lower }}{{ end }}
+        <li class="post-item" data-category="{{ $cat }}">
+            <a href="{{ .Permalink }}">
+                <span class="item-title">{{ .Title }}</span>
+                <span class="post-date">{{ .Date.Format (site.Params.DateFormat | default "January 2, 2006") }}</span>
+            </a>
+        </li>
+        {{- end }}
+    </ul>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var tabs = document.querySelectorAll('.tab');
+    var items = document.querySelectorAll('.post-item');
+
+    function filterPosts(filter) {
+        items.forEach(function (item) {
+            if (filter === 'all' || item.dataset.category === filter) {
+                item.style.display = '';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+        tabs.forEach(function (t) {
+            if (t.dataset.filter === filter) {
+                t.classList.add('active');
+            } else {
+                t.classList.remove('active');
+            }
+        });
+    }
+
+    tabs.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+            filterPosts(tab.dataset.filter);
+            history.replaceState(null, '', '#' + tab.dataset.filter);
+        });
+    });
+
+    // Support URL hash
+    var hash = window.location.hash.replace('#', '');
+    if (hash === 'life' || hash === 'all') {
+        filterPosts(hash);
+    } else {
+        filterPosts('tech');
+    }
+});
+</script>
+{{- end }}
