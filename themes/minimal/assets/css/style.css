@@ -181,7 +181,8 @@ img {
 
 #menu .active {
     font-weight: 500;
-    border-bottom: 2px solid currentColor;
+    color: #9d7cd8;
+    border-bottom: 2px solid #9d7cd8;
 }
 
 .main {
@@ -330,7 +331,7 @@ img {
 }
 
 .post-item a:hover .item-title {
-    box-shadow: 0 1px 0;
+    color: #9d7cd8;
 }
 
 .post-date {

@@ -12,14 +12,20 @@
         <ul id="menu">
             {{- range site.Menus.main }}
             {{- $is_external := findRE "://" .URL }}
+            {{- $active := false }}
+            {{- if eq .URL "/" }}
+                {{- $active = $.IsHome }}
+            {{- else if eq .Identifier "writing" }}
+                {{- $active = or (hasPrefix $.RelPermalink "/writing/") (and (hasPrefix $.RelPermalink "/posts/") (not (hasPrefix $.RelPermalink "/posts/reading/")) (not (hasPrefix $.RelPermalink "/posts/booknotes/"))) }}
+            {{- else if eq .Identifier "reading" }}
+                {{- $active = or (hasPrefix $.RelPermalink "/posts/reading/") (hasPrefix $.RelPermalink "/posts/booknotes/") }}
+            {{- else }}
+                {{- $active = hasPrefix $.RelPermalink .URL }}
+            {{- end }}
             <li>
                 <a href="{{ .URL | relURL }}"
                     {{- if $is_external }} target="_blank" rel="noopener noreferrer"{{ end }}
-                    {{- if eq .URL "/" }}
-                        {{- if $.IsHome }} class="active"{{ end }}
-                    {{- else }}
-                        {{- if hasPrefix ($.RelPermalink) .URL }} class="active"{{ end }}
-                    {{- end }}>
+                    {{- if $active }} class="active"{{ end }}>
                     <span>{{ .Name }}</span>
                     {{- if $is_external }}&nbsp;
                     <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
