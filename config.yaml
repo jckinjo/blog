@@ -70,6 +70,10 @@ menu:
       name: Reading
       url: /posts/reading/
       weight: 30
+    - identifier: playing
+      name: Playing
+      url: /playing/
+      weight: 40
 
 markup:
   goldmark:

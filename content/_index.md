@@ -11,7 +11,7 @@ I worked for Accenture for 2 years as a Data Engineer, and Sansan for 4 years as
 
 My views in the posts don't represent my organizations.
 
-</br>I love playing [Fingerstyle guitar](https://en.wikipedia.org/wiki/Fingerstyle_guitar), [reading books](/posts/reading/) and working out. :muscle:
+</br>I love playing [Fingerstyle guitar](/playing), [reading books](/posts/reading/) and working out. :muscle:
 
 
 
