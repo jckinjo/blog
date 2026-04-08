@@ -1,0 +1,25 @@
+{{- define "main" }}
+{{- if .Title }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+    {{- .Content }}
+</div>
+{{- end }}
+
+{{- $pages := union .RegularPages .Sections }}
+{{- range $pages.ByDate.Reverse }}
+<ul class="post-list">
+    <li class="post-item">
+        <a href="{{ .Permalink }}">
+            <span class="item-title">{{ .Title }}</span>
+            <span class="post-date">{{ .Date.Format (site.Params.DateFormat | default "January 2, 2006") }}</span>
+        </a>
+    </li>
+</ul>
+{{- end }}
+{{- end }}

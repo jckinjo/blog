@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}">
+<head>
+    {{- partial "head.html" . }}
+</head>
+<body class="dark">
+    {{- partial "header.html" . }}
+    <main class="main">
+        <h1 class="site-title">Keisei Kinjo (JC)</h1>
+        {{- block "main" . }}{{ end }}
+    </main>
+    {{- partial "footer.html" . }}
+</body>
+</html>

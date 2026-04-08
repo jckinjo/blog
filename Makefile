@@ -4,29 +4,18 @@ filename := content/posts/$(today).md
 
 tech:
 	@echo "Creating post: $(filename)"; \
-	cp -r archetypes/tech.md $(filename); \
+	cp archetypes/tech.md $(filename); \
 	sed -i '' "s/^date: .*/date: $(utc_now)/" $(filename)
-
-tech-img:
-	@echo "Creating post: $(filename)"; \
-	mkdir -p content/posts/$(today)/images; \
-    cp -r archetypes/tech-img.md content/posts/$(today)/index.md; \
-	sed -i '' "s/^date: .*/date: $(utc_now)/" content/posts/$(today)/index.md; \
 
 life:
 	@echo "Creating post: $(filename)"; \
-	cp -r archetypes/life.md $(filename); \
+	cp archetypes/life.md $(filename); \
 	sed -i '' "s/^date: .*/date: $(utc_now)/" $(filename)
 
-life-img:
-	@echo "Creating post: $(filename)"; \
-	mkdir -p content/posts/$(today)/images; \
-    cp -r archetypes/life-img.md content/posts/$(today)/index.md; \
-	sed -i '' "s/^date: .*/date: $(utc_now)/" content/posts/$(today)/index.md; \
-
-update:
-	@git submodule update --init --recursive
-	@echo "Submodules updated."
+note:
+	@read -p "Filename (e.g. book_name): " name; \
+	echo "Creating note: content/posts/booknotes/$$name.md"; \
+	cp archetypes/note.md content/posts/booknotes/$$name.md
 
 serve:
 	@hugo server --disableFastRender --ignoreCache

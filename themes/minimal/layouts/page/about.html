@@ -1,0 +1,17 @@
+{{- define "main" }}
+<article class="about-page">
+    <div class="about-content">
+        {{ .Content }}
+    </div>
+    {{- with site.Params.socialIcons }}
+    <div class="social-icons">
+        {{- range . }}
+        <a href="{{ .url | safeURL }}" target="_blank" rel="noopener noreferrer me"
+            title="{{ .name | title }}">
+            {{ partial "svg.html" .name }}
+        </a>
+        {{- end }}
+    </div>
+    {{- end }}
+</article>
+{{- end }}

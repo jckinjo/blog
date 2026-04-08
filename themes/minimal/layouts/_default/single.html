@@ -1,0 +1,39 @@
+{{- define "main" }}
+<article class="post-single">
+    <header class="post-header">
+        <h1 class="post-title">{{ .Title }}</h1>
+        {{- if not (.Param "hideMeta") }}
+        <div class="post-meta">
+            {{- .Date.Format (site.Params.DateFormat | default "January 2, 2006") }}
+        </div>
+        {{- end }}
+    </header>
+
+    {{- with .Params.cover.image }}
+    <figure class="post-cover">
+        <img src="{{ . }}" alt="{{ $.Params.cover.alt | default "" }}">
+        {{- with $.Params.cover.caption }}<figcaption>{{ . | markdownify }}</figcaption>{{- end }}
+    </figure>
+    {{- end }}
+
+    {{- if (.Param "ShowToc") }}
+    {{- partial "toc.html" . }}
+    {{- end }}
+
+    {{- if .Content }}
+    <div class="post-content">
+        {{- .Content }}
+    </div>
+    {{- end }}
+
+    <footer class="post-footer">
+        {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+        {{- partial "share.html" . }}
+        {{- end }}
+    </footer>
+
+    {{- if (.Param "comments") }}
+    {{- partial "comments.html" . }}
+    {{- end }}
+</article>
+{{- end }}

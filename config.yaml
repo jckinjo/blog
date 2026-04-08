@@ -1,20 +1,11 @@
 baseURL: "https://www.kinjo.tech/"
 title: Keisei Kinjo (JC)'s Blog
-copyright: "© 2025 kinjo.tech"
-theme: PaperMod
-pagination:
-  pagerSize: 12
+copyright: "© 2026 kinjo.tech"
+theme: minimal
 
-enableInlineShortcodes: true
 enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections:
-  - posts
 
 googleAnalytics: G-FRYQ5R2WW9
 
@@ -26,12 +17,8 @@ params:
     - Blog
     - Portfolio
   author: JC
-  images: [""]
   DateFormat: "January 2, 2006"
-  defaultTheme: dark
-  disableThemeToggle: true
 
-  ShowReadingTime: false
   ShowShareButtons: true
   ShareButtons:
     - "linkedin"
@@ -39,55 +26,20 @@ params:
     - "facebook"
     - "reddit"
     - "telegram"
-  ShowPostNavLinks: false
-  ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowWordCount: false
-  ShowRssButtonInSectionTermList: true
   UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
   comments: true
-  hidemeta: false
-  hideSummary: true
   showtoc: true
-  tocopen: false
-  social: true
 
   assets:
-    disableHLJS: true
     favicon: favicon.png
     favicon16x16: favicon-16x16.png
     favicon32x32: favicon-32x32.png
     apple_touch_icon: apple_touch_icon.png
 
   label:
-    text: "JC"
     icon: /favicon.png
-    iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: false
-    title: Keisei Kinjo (JC)
-    subtitle: >
-      
-    # imageUrl: "/favicon.png"
-    imageWidth: 140
-    imageHeight: 140
-    imageTitle: Creamyyy
-
-  homeInfoParams:
-    Title: "Keisei Kinjo (JC)"
-    Content: >
-      I'm JC, a Mandarin-Japanese-English trilingual DevOps Engineer base in Tokyo. 🗼
-      </br>Stuff I'm into right now: Golang, Kubernetes, Platform Engineering
-      
-      </br></br> I love playing [_Fingerstyle guitar_](https://en.wikipedia.org/wiki/Fingerstyle_guitar), [reading books](/posts/reading/), and working out. 💪
-      </br> Email me at jci[@]tutamail.com
-
-      </br></br> The icon is Creamyyy, a character created by my wife Chaerin.
-      
+    iconHeight: 45
 
   socialIcons:
     - name: email
@@ -103,22 +55,21 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON
 
 menu:
   main:
-    - identifier: life
-      name: Life
-      url: categories/life
+    - identifier: about
+      name: About
+      url: /
       weight: 10
-    - identifier: tags
-      name: Tags
-      url: tags/
-      weight: 15
-    - identifier: Reading
-      name: Reading
-      url: posts/reading
+    - identifier: writing
+      name: Writing
+      url: /writing/
       weight: 20
+    - identifier: reading
+      name: Reading
+      url: /posts/reading/
+      weight: 30
 
 markup:
   goldmark:
@@ -127,6 +78,4 @@ markup:
   highlight:
     noClasses: false
 
-taxonomies:
-  tag: tags
-  category: categories
+taxonomies: {}

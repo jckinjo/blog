@@ -1,0 +1,7 @@
+name = "minimal"
+license = "MIT"
+description = "A minimal Hugo theme"
+min_version = "0.125.7"
+
+[author]
+  name = "JC"
