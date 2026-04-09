@@ -1,5 +1,9 @@
-<div class="video-card">
+<div class="video-card" data-youtube-id="{{ .Get "id" }}" data-date="{{ .Get "date" }}">
     <div class="video-wrapper">
         <iframe src="https://www.youtube-nocookie.com/embed/{{ .Get "id" }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    </div>
+    <div class="video-info">
+        <span class="video-title"></span>
+        {{- with .Get "date" }}<span class="video-date">{{ . }}</span>{{- end }}
     </div>
 </div>

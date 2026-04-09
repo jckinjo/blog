@@ -314,10 +314,24 @@ img {
     height: 100%;
 }
 
-.video-title {
-    color: var(--secondary);
-    font-size: 14px;
+.video-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     margin-top: 8px;
+    gap: 8px;
+}
+
+.video-title {
+    color: var(--content);
+    font-size: 14px;
+}
+
+.video-date {
+    color: var(--secondary);
+    font-size: 13px;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 /* ==================== Writing Page ==================== */
@@ -344,8 +358,8 @@ img {
 }
 
 .writing-tabs .tab.active {
-    color: var(--primary);
-    border-bottom-color: var(--primary);
+    color: #9d7cd8;
+    border-bottom-color: #9d7cd8;
 }
 
 .post-list {

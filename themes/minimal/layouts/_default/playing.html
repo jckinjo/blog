@@ -4,4 +4,24 @@
         {{- .Content }}
     </div>
 </div>
+
+<script>
+var grid = document.querySelector('.video-grid');
+var cards = Array.from(grid.querySelectorAll('.video-card'));
+cards.sort(function (a, b) {
+    return (b.dataset.date || '').localeCompare(a.dataset.date || '');
+});
+cards.forEach(function (card) { grid.appendChild(card); });
+
+document.querySelectorAll('.video-card[data-youtube-id]').forEach(function (card) {
+    var id = card.dataset.youtubeId;
+    var titleEl = card.querySelector('.video-title');
+    fetch('https://noembed.com/embed?url=https://www.youtube.com/watch?v=' + id)
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+            if (data.title) titleEl.textContent = data.title;
+        })
+        .catch(function () {});
+});
+</script>
 {{- end }}
