@@ -26,5 +26,12 @@ type: "page"
 
 {{< youtube-card id="dZOVm_oM2a4" date="2015-10-09" >}}
 
+{{< youtube-card id="LA7w4ocwVB0" date="2019-07-13" >}}
+
+{{< youtube-card id="pQN2QrReTdQ" date="2020-04-25" >}}
+
+{{< youtube-card id="y9gYz6RD-48" date="2022-12-24" >}}
+
+{{< youtube-card id="6fB4ySwEJrk" date="2020-03-04" >}}
 
 

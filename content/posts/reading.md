@@ -54,7 +54,6 @@ A list of books and Articles I am reading or have finished.
 39. Observability Engineering / Charity Majors, George Miranda, and Liz Fong-Jones
 40. Kubernetesコンテナセキュリティ / 望月敬太
 41. [ ] Learning eBPF / Liz Rice
-42. [ ] Building Multi-Tenant SaaS Architectures Principles, Practices and Patterns Using AWS / Tod Golding
 
 ## Tech Articles
 
@@ -180,6 +179,5 @@ A list of books and Articles I am reading or have finished.
 103. データでわかる東京格差 / にゃんこそば
 104. エブリシング・ヒストリーと地政学 マネーが生み出す文明の「破壊と創造」 / エミン・ユルマズ
 105. コンタクトセンターの作り方・運用の仕方
-106. [ ] 紅樓夢
-
-
+106. 紅樓夢
+107. Company Of One: Why Staying Small Is the Next Big Thing for Business / Paul Jarvis

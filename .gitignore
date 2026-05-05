@@ -31,3 +31,5 @@ resources/_gen/
 # ignore posts before 2020
 content/posts/200*
 content/posts/201*
+
+draft.md
