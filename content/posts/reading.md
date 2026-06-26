@@ -53,7 +53,7 @@ A list of books and Articles I am reading or have finished.
 38. [計算機底層的祕密](/posts/booknotes/computer_fundamentals/) / 陸小風
 39. Observability Engineering / Charity Majors, George Miranda, and Liz Fong-Jones
 40. Kubernetesコンテナセキュリティ / 望月敬太
-41. [ ] Learning eBPF / Liz Rice
+41. Learning eBPF / Liz Rice
 
 ## Tech Articles
 
@@ -123,7 +123,7 @@ A list of books and Articles I am reading or have finished.
 47. 二十一世紀台灣要到哪裡去 / 李登輝
 48. Amusing Ourselves to Death / Neil Postman
 49. 我所看待的自由與未來 / 唐鳳
-50. 四十自述 / 胡適
+50. (2) 四十自述 / 胡適
 51. 失敗百選 / 中尾政之
 52. (2) 群衆心理 / Gustave Le Bon
 53. 法律人的思考法則 / Vibeke Norgaard Martin
@@ -174,10 +174,14 @@ A list of books and Articles I am reading or have finished.
 98. 東京の教科書
 99. 湘南ERが教える 大切な人を守るための応急手当 / 湘南ER
 100. 日本政治の超基本 / 朝日新聞社
-101. 採購與供應鏈管理：一個實踐者的角度
-102. 五胡十六国時代　王朝の乱立と権力闘争
+101. 採購與供應鏈管理：一個實踐者的角度 / 劉寶紅
+102. 五胡十六国時代　王朝の乱立と権力闘争 / 小野響 
 103. データでわかる東京格差 / にゃんこそば
 104. エブリシング・ヒストリーと地政学 マネーが生み出す文明の「破壊と創造」 / エミン・ユルマズ
-105. コンタクトセンターの作り方・運用の仕方
-106. 紅樓夢
-107. Company Of One: Why Staying Small Is the Next Big Thing for Business / Paul Jarvis
+105. コンタクトセンターの作り方・運用の仕方 / 有山裕孝
+106. Company Of One: Why Staying Small Is the Next Big Thing for Business / Paul Jarvis
+107. 疫年紀事 / 李厚辰
+108. Brave New World / Aldous Huxley
+109. One Two Three... Infinity / George Gamow
+110. タイパの経済学 / 廣瀬涼
+111. Dopamine Nation: Finding Balance in the Age of Indulgence
