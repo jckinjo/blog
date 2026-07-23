@@ -1,0 +1,11 @@
+{{- $url := .Get 0 -}}
+{{- $title := .Get 1 | default .Page.Title -}}
+<iframe
+  class="hatena-blog-card"
+  src="https://hatenablog-parts.com/embed?url={{ $url | urlquery }}"
+  title="{{ $title }}"
+  frameborder="0"
+  scrolling="no"
+  loading="lazy"
+></iframe>
+<noscript><a href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ $title }}</a></noscript>

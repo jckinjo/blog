@@ -1,0 +1,19 @@
+{{- $url := .Get 0 -}}
+{{- $title := .Get 1 | default "Zennの記事を開く" -}}
+{{- $id := printf "zenn-embedded__%s-%d" (md5 $url) .Ordinal -}}
+{{- if not (.Page.Scratch.Get "zenn-embed-script") -}}
+  {{- .Page.Scratch.Set "zenn-embed-script" true -}}
+<script src="https://embed.zenn.studio/js/listen-embed-event.js"></script>
+{{- end }}
+<span class="zenn-embedded-card">
+  <iframe
+    id="{{ $id }}"
+    src="https://embed.zenn.studio/card#{{ $id }}"
+    data-content="{{ $url | urlquery }}"
+    title="{{ $title }}"
+    frameborder="0"
+    scrolling="no"
+    loading="lazy"
+  ></iframe>
+</span>
+<noscript><a href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ $title }}</a></noscript>
