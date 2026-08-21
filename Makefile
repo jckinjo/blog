@@ -12,11 +12,6 @@ life:
 	cp archetypes/life.md $(filename); \
 	sed -i '' "s/^date: .*/date: $(utc_now)/" $(filename)
 
-note:
-	@read -p "Filename (e.g. book_name): " name; \
-	echo "Creating note: content/posts/booknotes/$$name.md"; \
-	cp archetypes/note.md content/posts/booknotes/$$name.md
-
 img:
 	@read -p "Image path: " src; \
 	read -p "Post name (e.g. 20231017): " post; \

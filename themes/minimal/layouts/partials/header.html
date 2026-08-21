@@ -16,9 +16,7 @@
             {{- if eq .URL "/" }}
                 {{- $active = $.IsHome }}
             {{- else if eq .Identifier "writing" }}
-                {{- $active = or (hasPrefix $.RelPermalink "/writing/") (and (hasPrefix $.RelPermalink "/posts/") (not (hasPrefix $.RelPermalink "/posts/reading/")) (not (hasPrefix $.RelPermalink "/posts/booknotes/"))) }}
-            {{- else if eq .Identifier "reading" }}
-                {{- $active = or (hasPrefix $.RelPermalink "/posts/reading/") (hasPrefix $.RelPermalink "/posts/booknotes/") }}
+                {{- $active = or (hasPrefix $.RelPermalink "/writing/") (hasPrefix $.RelPermalink "/posts/") }}
             {{- else if eq .Identifier "playing" }}
                 {{- $active = hasPrefix $.RelPermalink "/playing/" }}
             {{- else }}

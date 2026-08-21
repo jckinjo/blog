@@ -66,10 +66,6 @@ menu:
       name: Writing
       url: /writing/
       weight: 20
-    - identifier: reading
-      name: Reading
-      url: /posts/reading/
-      weight: 30
     - identifier: playing
       name: Playing
       url: /playing/
