@@ -1,6 +1,8 @@
 ---
 title: "潤日進階: 如何DIY歸化日籍🇯🇵"
 date: 2023-11-29T00:00:00+00:00
+params:
+  lang: zh-TW
 author: "Me"
 categories: ["life"]
 hiddenInHomeList: true

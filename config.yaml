@@ -17,7 +17,7 @@ params:
     - Blog
     - Portfolio
   author: JC
-  DateFormat: "January 2, 2006"
+  DateFormat: "2006-01-02"
 
   ShowShareButtons: true
   ShareButtons:

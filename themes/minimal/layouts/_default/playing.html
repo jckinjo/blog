@@ -7,21 +7,20 @@
 
 <script>
 var grid = document.querySelector('.video-grid');
-var cards = Array.from(grid.querySelectorAll('.video-card'));
-cards.sort(function (a, b) {
-    return (b.dataset.date || '').localeCompare(a.dataset.date || '');
-});
-cards.forEach(function (card) { grid.appendChild(card); });
+grid.addEventListener('click', function (event) {
+    var facade = event.target.closest('.video-facade');
+    if (!facade) return;
 
-document.querySelectorAll('.video-card[data-youtube-id]').forEach(function (card) {
-    var id = card.dataset.youtubeId;
-    var titleEl = card.querySelector('.video-title');
-    fetch('https://noembed.com/embed?url=https://www.youtube.com/watch?v=' + id)
-        .then(function (r) { return r.json(); })
-        .then(function (data) {
-            if (data.title) titleEl.textContent = data.title;
-        })
-        .catch(function () {});
+    event.preventDefault();
+
+    var iframe = document.createElement('iframe');
+    iframe.src = 'https://www.youtube-nocookie.com/embed/' + facade.dataset.youtubeId + '?autoplay=1';
+    iframe.title = facade.getAttribute('aria-label').replace('Play video: ', '');
+    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+    iframe.allowFullscreen = true;
+
+    facade.replaceWith(iframe);
 });
 </script>
 {{- end }}

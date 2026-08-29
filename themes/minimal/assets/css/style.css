@@ -300,18 +300,65 @@ img {
 
 .video-wrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
     border-radius: var(--radius);
+    background: var(--code-block-bg);
 }
 
-.video-wrapper iframe {
+.video-wrapper iframe,
+.video-facade {
     position: absolute;
-    top: 0;
-    left: 0;
+    inset: 0;
+    display: block;
     width: 100%;
     height: 100%;
+    border: 0;
+}
+
+.video-facade img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.video-facade:hover img {
+    opacity: 0.82;
+    transform: scale(1.02);
+}
+
+.video-facade:focus-visible {
+    outline: 2px solid #9d7cd8;
+    outline-offset: 3px;
+}
+
+.video-play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 42px;
+    border-radius: 12px;
+    background: rgba(22, 22, 30, 0.82);
+    transform: translate(-50%, -50%);
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.video-play-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 13px solid #fff;
+    transform: translate(-50%, -50%);
+}
+
+.video-facade:hover .video-play-button {
+    background: #9d7cd8;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 .video-info {
@@ -335,31 +382,15 @@ img {
 }
 
 /* ==================== Writing Page ==================== */
-.writing-tabs {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 28px;
-    border-bottom: 1px solid var(--tertiary);
-    padding-bottom: 8px;
+.writing-year + .writing-year {
+    margin-top: 28px;
 }
 
-.writing-tabs .tab {
+.writing-year-title {
+    margin-bottom: 8px;
     color: var(--secondary);
-    font-size: 16px;
-    cursor: pointer;
-    padding: 4px 0;
-    border-bottom: 2px solid transparent;
-    margin-bottom: -9px;
-    transition: color 0.2s;
-}
-
-.writing-tabs .tab:hover {
-    color: var(--primary);
-}
-
-.writing-tabs .tab.active {
-    color: #9d7cd8;
-    border-bottom-color: #9d7cd8;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .post-list {

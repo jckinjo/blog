@@ -1,9 +1,16 @@
-<div class="video-card" data-youtube-id="{{ .Get "id" }}" data-date="{{ .Get "date" }}">
+{{- $id := .Get "id" -}}
+{{- $title := .Get "title" | default "YouTube video" -}}
+{{- $priority := eq (.Get "priority") "true" -}}
+<div class="video-card">
     <div class="video-wrapper">
-        <iframe src="https://www.youtube-nocookie.com/embed/{{ .Get "id" }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        <a class="video-facade" href="https://www.youtube.com/watch?v={{ $id }}" data-youtube-id="{{ $id }}" aria-label="Play video: {{ $title }}">
+            <img src="https://i.ytimg.com/vi/{{ $id }}/hqdefault.jpg" alt="" width="480" height="360"
+                {{- if $priority }} loading="eager" fetchpriority="high"{{ else }} loading="lazy"{{ end }} decoding="async">
+            <span class="video-play-button" aria-hidden="true"></span>
+        </a>
     </div>
     <div class="video-info">
-        <span class="video-title"></span>
+        <span class="video-title">{{ $title }}</span>
         {{- with .Get "date" }}<span class="video-date">{{ . }}</span>{{- end }}
     </div>
 </div>
